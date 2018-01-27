@@ -4,6 +4,8 @@
   "description": "The server of the future",
   "main": "server.js",
   "scripts": {
+    "watch": "nodemon api/server.js",
+    "start": "node api/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +24,7 @@
     "express": "^4.16.2",
     "firebase": "^4.9.0",
     "helmet": "^3.10.0",
+    "nodemon": "^1.14.11",
     "path": "^0.12.7"
   }
 }

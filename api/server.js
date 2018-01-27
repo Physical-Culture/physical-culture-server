@@ -24,6 +24,7 @@ app.use((req, res, next) => {
 
 
 /** Routes here **/
+app.use('/place', api_placeholder);
 app.use('/api', (req, res) => {
 	res.send("Sahhh dude");
 	return;
