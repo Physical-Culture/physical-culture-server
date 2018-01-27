@@ -1,0 +1,27 @@
+{
+  "name": "physical-culture-server",
+  "version": "1.0.0",
+  "description": "The server of the future",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Physical-Culture/physical-culture-server.git"
+  },
+  "author": "Jarred & Mike",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Physical-Culture/physical-culture-server/issues"
+  },
+  "homepage": "https://github.com/Physical-Culture/physical-culture-server#readme",
+  "dependencies": {
+    "compression": "^1.7.1",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "firebase": "^4.9.0",
+    "helmet": "^3.10.0",
+    "path": "^0.12.7"
+  }
+}
